@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm check $1 -- --emoji --emoji-pos=end
+node bin/cv.js $1 --emoji --emoji-pos=end
