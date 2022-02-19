@@ -39,6 +39,13 @@ module.exports = defineConfig({
 
 whether auto add emoji to commit msg
 
+```js
+  // pos: start
+  feat(scope): msg -> feat(scope)🍉: msg
+  // pos: end
+  feat(scope): msg -> feat(scope): msg 🍉
+```
+
 #### emojiList
 
 - default: `['🍓', '🍉', '🍇', '🍒', '🍡', '🍥', '🍩', '🍰', '🍭', '🌸', '🌈']`
