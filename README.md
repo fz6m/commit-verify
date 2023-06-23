@@ -48,7 +48,7 @@ whether auto add emoji to commit msg
 
 #### emojiList
 
-- default: `['🍓', '🍉', '🍇', '🍒', '🍡', '🍥', '🍩', '🍰', '🍭', '🌸', '🌈']`
+- default: `['🍓', '🍉', '🍇', '🍒', '🍡', '🍩', '🍰', '🍭', '🌸', '🌈']`
 
 will add random emoji list
 
