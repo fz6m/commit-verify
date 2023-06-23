@@ -11,7 +11,7 @@ export interface IConfig {
   emoji?: boolean
   /**
    * will add random emoji list
-   * @default ['🍓', '🍉', '🍇', '🍒', '🍡', '🍥', '🍩', '🍰', '🍭', '🌸', '🌈']
+   * @default ['🍓', '🍉', '🍇', '🍒', '🍡', '🍩', '🍰', '🍭', '🌸', '🌈']
    */
   emojiList?: string[]
   /**
@@ -34,7 +34,7 @@ export interface IConfig {
 export const DEFAULT_CONFIG_NAME = 'cv'
 export const DEFAULT_CONFIG: Required<IConfig> = {
   emoji: false,
-  emojiList: ['🍓', '🍉', '🍇', '🍒', '🍡', '🍥', '🍩', '🍰', '🍭', '🌸', '🌈'],
+  emojiList: ['🍓', '🍉', '🍇', '🍒', '🍡', '🍩', '🍰', '🍭', '🌸', '🌈'],
   emojiPos: EEmojiPos.start,
   /**
    * Merge: for github
